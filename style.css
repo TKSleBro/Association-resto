@@ -8,3 +8,37 @@ header {
   font-size: 24px;
   font-weight: bold;
 }
+
+/* Contenu principal */
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.partner-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.partner-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.partner-list li:last-child {
+  margin-right: 0;
+}
