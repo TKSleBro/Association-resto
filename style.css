@@ -50,3 +50,68 @@ footer {
   margin-top: 20px;
   text-align: center;
 }
+
+/* Media queries */
+@media (min-width: 576px) {
+  .navbar-brand {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .partner-list {
+    margin-top: 20px;
+  }
+
+  .partner-list li {
+    margin-right: 20px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 36px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .partner-list {
+    margin-top: 30px;
+  }
+
+  .partner-list li {
+    margin-right: 30px;
+  }
+
+  footer {
+    margin-top: 80px;
+  }
+}
