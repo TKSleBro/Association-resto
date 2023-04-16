@@ -77,3 +77,36 @@ footer {
 footer p {
   margin: 0;
 }
+
+/* Mobile  */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+/* Tablet  */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+}
+
+/* Desktop  */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+}
